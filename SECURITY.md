@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-If you have a solution to the issue create a pull request
+Please go [here](https://github.com/JetVolcano/jetvolcano.github.io/security/advisories/new) to report a vulnerability
