@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <p>test</p>
+    <p>speed test</p>
 </template>
