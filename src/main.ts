@@ -1,4 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Home from './Home.vue'
 
-createApp(App).mount('#app')
+
+document.title = "JetVolcano's Website"
+createApp(Home).mount('#home')
