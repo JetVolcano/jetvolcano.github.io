@@ -1,5 +1,22 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import starlight from '@astrojs/starlight';
+
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+	integrations: [starlight({
+        title: "JetVolcano",
+        favicon: "/jetvolcanoface.png",
+        logo: {
+            src: "./src/assets/jetvolcanoface.png"
+        },
+        social: [
+            { icon: "seti:gitlab", label: "GitLab Personal", href: "https://gitlab.com/JetVolcano" },
+            { icon: "seti:github", label: "GitHub", href: "https://github.com/jetvolcano/jetvolcano.github.io" }
+        ],
+        sidebar: [
+            { label: "Home", link: "/" }
+        ]
+    })
+]});
