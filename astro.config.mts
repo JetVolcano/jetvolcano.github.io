@@ -15,7 +15,7 @@ export default defineConfig({
         },
         social: [
             { icon: "seti:gitlab", label: "GitLab Personal", href: "https://gitlab.com/JetVolcano" },
-            { icon: "seti:github", label: "GitHub", href: "https://github.com/jetvolcano/jetvolcano.github.io" },
+            { icon: "seti:github", label: "GitHub", href: "https://github.com/JetVolcano" },
 		],
         sidebar: [
             { label: "Home", link: "/home" }
