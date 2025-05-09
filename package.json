@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.2",
+    "@astrojs/starlight": "^0.34.3",
     "@sentry/astro": "^9.16.1",
     "@spotlightjs/astro": "^3.2.3",
     "astro": "^5.6.1",
