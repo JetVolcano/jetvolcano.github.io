@@ -21,7 +21,7 @@ export default defineConfig({
             { label: "Home", link: "/home" }
         ],
 		plugins: [
-			
+            
 		]
     }), 
 	sentry(),
