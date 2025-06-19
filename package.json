@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/starlight": "0.34.3",
     "@sentry/astro": "9.19.0",
-    "@spotlightjs/astro": "^3.2.3",
+    "@spotlightjs/astro": "^3.2.5",
     "astro": "5.7.13",
     "sharp": "0.34.1"
   }
