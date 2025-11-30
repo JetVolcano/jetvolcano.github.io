@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-display: "JetBrains Mono", "serif";
+  --cold-black: oklch(18.309% 0.00406 285.925);
+  --header-dark: oklch(25% 0.005 300);
+  --header-light: var(--color-white);
+}
+
+body {
+  background: var(--color-slate-200);
+
+  @variant dark {
+    background: var(--cold-black);
+  }
+}
