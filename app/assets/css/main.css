@@ -4,7 +4,7 @@
 @theme {
   --font-display: "JetBrains Mono", "serif";
   --cold-black: oklch(18.309% 0.00406 285.925);
-  --header-dark: oklch(25% 0.005 300);
+  --header-dark: oklch(25% 0.01 240);
   --header-light: var(--color-white);
 }
 
