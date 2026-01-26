@@ -15,7 +15,7 @@
     "@nuxt/fonts": "0.13.0",
     "@nuxt/hints": "1.0.0-alpha.5",
     "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.3.0",
+    "@nuxt/ui": "4.4.0",
     "@tailwindcss/vite": "^4.1.18",
     "eslint": "^9.39.2",
     "nuxt": "^4.3.0",
