@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -15,10 +14,15 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   fonts: {
     provider: "google",
-    families: [{ name: "JetBrains Mono", provider: "google", global: true }],
-  },
-  vite: {
-    plugins: [tailwindcss()],
+    families: [
+      {
+        name: "Maple Mono",
+        src: "/fonts/maple-mono.woff2",
+        weight: "400",
+        style: "normal",
+        global: true,
+      },
+    ],
   },
   app: {
     head: {

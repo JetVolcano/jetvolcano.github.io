@@ -4,19 +4,14 @@
       <PageHeader />
     </div>
 
-    <UContainer class="translate-y-10">
-      <!-- Translate Y is TEMPORARY until the other sections are added -->
-
+    <UContainer class="translate-y-10 font-display">
       <div class="outline-2 outline-offset-12 outline-zinc-800 rounded-md">
         <b class="text-3xl font-bold text-neutral-700 dark:text-slate-200">
-          What I'm learning
+          <p class="translate-1">What I'm learning</p>
         </b>
 
-        <TailwindSection />
-
-        <ul>
-          
-        </ul>
+        <TailwindMark />
+        <RustMark />
       </div>
     </UContainer>
   </UApp>
